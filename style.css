@@ -1,0 +1,534 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (min-width: 822px){
+  
+  .rectangle3 {
+    position: absolute;
+    right: 0px;
+    width: 57px;
+    height: 57px;
+    top: 7em;
+  }
+  .ellipse1 {
+    position: absolute;
+    left: 54em;
+    top: 6em;
+    height: 37px;
+    width: 37px;
+  }
+  .rectangle2{
+    width: 37px;
+    position: absolute;
+    top: 28em;
+    left: 12em;
+    /* margin-bottom: 20em; */
+
+  }
+  .rectangle1{
+    position: absolute;
+    left: 26em;
+    top: 5em;
+    height: 30px;
+    width: 30px;
+    opacity: 70%;
+  
+}
+  
+} 
+
+
+@media screen and (max-width: 820px){
+  .h22{
+    position: absolute;
+    width: 300px;
+  }
+  .rectangle3 {
+    position: absolute;
+    right: 0px;
+    width: 57px;
+    height: 57px;
+    top: 7em;
+  }
+  .rectangle2{
+    width: 30px;
+    position: absolute;
+    top: 32em;
+    left: 4em;
+    /* margin-bottom: 20em; */
+
+  }
+
+  .rectangle1{
+    position: absolute;
+    left: 12em;
+    top: 4em;
+    height: 30px;
+    width: 30px;
+    opacity: 70%;
+
+    
+  }
+
+  .ellipse1 {
+    position: absolute;
+    top: 6em;
+    right: 10em;
+    height: 37px;
+    width: 37px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .rectangle1,.rectangle2,.rectangle3,.ellipse1{
+  display: none;
+  }
+}
+
+/* navbar +logo */
+
+.navvyiitt {
+  display: flex;
+  justify-content: end;
+}
+.logoo {
+  margin-right: -19px;
+  width: 69px;
+  height: 38px;
+}
+.bttt {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.nav-item {
+  padding-left: 10px;
+}
+.nav-link {
+  border-bottom: 4px solid green;
+}
+
+
+/* First section */
+.navbelow {
+  margin-bottom: 35em;
+  margin-top: 4em;
+}
+/* First Section Text */
+
+.h22 {
+  position: absolute;
+  top: 9em;
+  z-index: 3;
+  width: 267px;
+}
+/* First Section Heading */
+
+.h22 h2 {
+  font-size: 59px;
+  font-family: "Playfair Display", serif;
+}
+/* First Section Paragraph */
+.h22p {
+  font-size: 19px;
+  font-family: "Railway";
+  font-weight: lighter;
+  /* padding-right: 2.3em;  */
+}
+/* Image of Girl */
+
+
+.stimgg {
+  position: absolute;
+  right: 9em;
+  width: 683px;
+  height: 383px;
+  z-index: 1;
+}
+
+
+  
+
+
+
+
+@media screen and (max-width: 800px) {
+  .stimgg {
+    position: absolute;
+    right: 0em;
+    width: 445px;
+    height: 250px;
+    z-index: 1;
+  }
+
+  .h22 {
+    /* width: 356px;
+    position: absolute;
+    top: 5em; */
+  }
+  .h22 h2 {
+    font-size: 38px;
+    padding-right: 3em;
+  }
+  .c1,.c2.c3{
+    width: 250px;
+    height: 150px;
+  }
+}
+
+
+
+/* 3rd Section */
+
+@media screen and (max-width: 600px){
+  .h22{
+    top: 5em;
+  }
+  .h22 h2{
+    padding-right: 5em;
+
+
+  }
+  .nav-item {
+    display: none;
+  }
+  .newsh{
+    margin: 1em 0em;
+  }
+  .conta{
+    /* margin-top: 5em; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .genfooter{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+
+  .sponsorimgs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .sp1{
+    padding: 13px 12px;
+  }
+ 
+  .footer{
+    display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction:column;
+
+  }
+  .placeholderbtn{
+    margin: 0px;
+  }
+
+}
+
+
+.texty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.TEXTYBTN{
+  margin-top: 105px;
+}
+.ajeeb{
+  margin: 3em 0em;
+}
+/* 2 cards with green bg */
+.c1btn{
+  border: none;
+  color: #4ba87d;
+}
+.thescard{
+  margin-top: 5em;
+}
+.thetcard{
+  margin-top: 7em;
+}
+.thetext{
+  font-family: "Railway";
+  font-size: 15px;
+}
+.themcard{
+  background-image: url(./Assets/Slanted\ Green\ BG.png);
+  /* transform: rotate(11deg); */
+  height: 1059.87px;
+  width: 100vw;
+  padding-top: 16em;
+  /* margin-top: -1em; */
+
+}
+@media screen and (max-width: 900px){
+  .h22 h2{
+    padding-right: 0em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .themcard{
+    height: 980px;
+  }
+  .thefcard{
+    width: 180px;
+  }
+  .thescard{
+    margin-top: 9em;
+    position: absolute;
+    right: 0;
+    width: 160px;
+  }
+  .thetcard{
+    position: absolute;
+    /* padding-right: 5em; */
+    /* margin-top: 41em; */
+    left: 0;
+    text-align: center;
+    top: 115em;
+    /* position: absolute; */
+  }
+  .frstbtnn{
+    margin-top: 270px;
+    padding: 0px 2em;
+    /* position: absolute; */
+  }
+  .h22 h2{
+    top: 6em;
+    padding-right: 2em;
+  }
+  .h22p{
+    position: absolute;
+    top: 16em;
+  }
+  .allcard{
+  
+  flex-wrap:wrap;
+  }
+  .themcard{
+    padding-top: 4em;
+  }
+  .thescard{
+    /* position: absolute; */
+    padding-top: 7em;
+    /* padding-left: 10em; */
+    /* padding-bottom: 10em; */
+  margin-top: 0em;
+  }
+  .thetcard{
+  margin-top: 0em;
+
+  }
+}
+
+@media screen and (max-width: 300px){
+  .allcard{
+    background-image: url(./Assets/Slanted\ Green\ BG.png);
+
+    height: 1150px;
+  }
+  .thetcard{
+    padding-top: 3em;
+    margin-bottom: 4em;
+    padding-right: 8em;
+  }
+  .thefcard{
+    width: 120px;
+  }
+  .thescard{
+    margin-top: 9em;
+    position: absolute;
+    right: 0;
+    width: 120px;
+  }
+  .conta{
+    margin-top: 5em;
+  }
+}
+.c2{
+  width: 400px;
+  height: 282px;
+}
+
+/* News Letter + 3 card */
+
+
+.contanews{
+margin-top: -4em;
+}
+
+.conta{
+  display: flex;
+  justify-content:space-around;
+  /* align-items: center; */
+  
+}
+.c1{
+  width: 342px;
+  height: 239px;
+  cursor: pointer;
+}
+.c1h{
+  position: absolute;
+  bottom: 25px;
+  left: 16px;
+  color: white;
+}
+.c1p{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.newsh{
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  margin: 1em 5em;
+  text-align: center;
+}
+.placeholderbtn{
+  margin-left: 3em;
+  padding: 5px 1em;
+}
+.greentext{
+  color: #4ba87d;
+  text-align: center;
+  padding-right:13em ;
+}
+
+.newsholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsplaceholder{
+  padding: 5px 0.5em;
+  padding-right: 3em;
+}
+
+@media screen and (max-width: 900px){
+  .newsh{
+    margin: 1em 0em;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .greentext{
+    padding-right: 3.5em;
+  }
+ 
+  .newsholder{
+    display: flex;
+    flex-direction: column;   
+  }
+}
+
+/* Sponsors */
+.sponsorh{
+  margin: 2em 0em 1em 0em;
+  text-align: center;
+}
+.sponsorimgs{
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+/* 4Th Section */
+
+.frthsec{
+  position: absolute;
+  height: 1024px;
+  width: 100%;
+  background-image: url(/Assets/Slanted\ Green\ BG.png);
+  z-index: 1;
+}
+
+.headingg{
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+}
+
+
+.footabovef{
+  margin-top: 5em;
+  background-color:#4ba87d;
+  height: 22em;
+  width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footabove{
+  
+  color: white;
+ 
+}
+.footabovebtn{
+  color: #4ba87d;
+  background-color: white;
+  padding: 5px 15px;
+  border: none;
+  margin-left: 8em;
+  margin-top: 1em;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  font-size: 19px;
+  font-family: "Railway";
+
+}
+
+.footimg{
+  width: 11em;
+  height: 3.8em;
+
+}
+
+.genfooter{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Railway";
+  font-size: 15px;
+}
+
+/* 2nd Section */
+
+.background{
+  background-image: url(/Assets/img.png);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headingg{
+  color: white;
+}
+
+.backbtn{
+  padding-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backgbtn{
+  background-color: white;
+  color: #4ba87d;
+}
