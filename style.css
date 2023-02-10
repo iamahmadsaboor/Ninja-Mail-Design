@@ -5,9 +5,49 @@
   padding: 0%;
   font-family: "Raleway", sans-serif;
 }
+@media screen and (max-width: 350px){
+  .allcard{
+    background-image: url(./Assets/Slanted\ Green\ BG.png);
+
+    height: 1150px;
+  }
+  .thetcard{
+    padding-top: 3em;
+    margin-bottom: 4em;
+    padding-right: 8em;
+  }
+  .thefcard{
+    width: 120px;
+  }
+  .thescard{
+    margin-top: 9em;
+    position: absolute;
+    right: 0;
+    width: 120px;
+  }
+  .conta{
+    margin-top: 5em;
+  }
+
+  .thrice{
+    margin-top: 10px;
+  }
+}
 
 @media screen and (min-width: 822px){
-  
+  .shapefade2{
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    right: 3em;
+  }
+  .shapefade3{
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    left: 10em;
+  }
+ 
   .rectangle3 {
     position: absolute;
     right: 0px;
@@ -58,7 +98,7 @@
   .rectangle2{
     width: 30px;
     position: absolute;
-    top: 32em;
+    top: 24em;
     left: 4em;
     /* margin-bottom: 20em; */
 
@@ -77,7 +117,7 @@
 
   .ellipse1 {
     position: absolute;
-    top: 6em;
+    top: 7.5em;
     right: 10em;
     height: 37px;
     width: 37px;
@@ -88,6 +128,10 @@
   .rectangle1,.rectangle2,.rectangle3,.ellipse1{
   display: none;
   }
+  .frstbtnn{
+    margin-top: 300px;
+  }
+  
 }
 
 /* navbar +logo */
@@ -165,11 +209,7 @@
     z-index: 1;
   }
 
-  .h22 {
-    /* width: 356px;
-    position: absolute;
-    top: 5em; */
-  }
+
   .h22 h2 {
     font-size: 38px;
     padding-right: 3em;
@@ -186,7 +226,7 @@
 
 @media screen and (max-width: 600px){
   .h22{
-    top: 5em;
+    top: 4.5em;
   }
   .h22 h2{
     padding-right: 5em;
@@ -263,18 +303,33 @@
   font-size: 15px;
 }
 .themcard{
+  /* background: url(./Assets/white\ line.png), #CAEAC7; */
   background-image: url(./Assets/Slanted\ Green\ BG.png);
-  /* transform: rotate(11deg); */
+  background-repeat: no-repeat;
+  /* transform: skewy(11deg); */
   height: 1059.87px;
-  width: 100vw;
   padding-top: 16em;
-  /* margin-top: -1em; */
 
+}
+.whiteline{
+  /* width: 800px; */
+  position: absolute;
+  right: 0px
+  
 }
 @media screen and (max-width: 900px){
   .h22 h2{
-    padding-right: 0em;
+    padding-right: 3em;
   }
+  .h22 p{
+    padding-right: 5em;
+  }
+}
+@media screen and (max-width:1050px) {
+  .stimgg{
+    right: 0em;
+  }
+  
 }
 
 @media screen and (max-width: 600px){
@@ -282,7 +337,7 @@
     height: 980px;
   }
   .thefcard{
-    width: 180px;
+    width: 140px;
   }
   .thescard{
     margin-top: 9em;
@@ -296,7 +351,7 @@
     /* margin-top: 41em; */
     left: 0;
     text-align: center;
-    top: 115em;
+    top: 105em;
     /* position: absolute; */
   }
   .frstbtnn{
@@ -332,30 +387,7 @@
   }
 }
 
-@media screen and (max-width: 300px){
-  .allcard{
-    background-image: url(./Assets/Slanted\ Green\ BG.png);
 
-    height: 1150px;
-  }
-  .thetcard{
-    padding-top: 3em;
-    margin-bottom: 4em;
-    padding-right: 8em;
-  }
-  .thefcard{
-    width: 120px;
-  }
-  .thescard{
-    margin-top: 9em;
-    position: absolute;
-    right: 0;
-    width: 120px;
-  }
-  .conta{
-    margin-top: 5em;
-  }
-}
 .c2{
   width: 400px;
   height: 282px;
@@ -375,10 +407,11 @@ margin-top: -4em;
   
 }
 .c1{
-  width: 342px;
+  width: 223px;
   height: 239px;
   cursor: pointer;
 }
+
 .c1h{
   position: absolute;
   bottom: 25px;
@@ -531,4 +564,90 @@ margin-top: -4em;
 .backgbtn{
   background-color: white;
   color: #4ba87d;
+}
+@media screen and (max-width: 770px){
+
+  .h22 h2{
+    padding-right: 9em;
+  }
+  .h22 p{
+    padding-right: 18em;
+  }
+  .navbelow{
+    margin-bottom: 24em;
+  }
+  .shapefade2{
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    right: 3em;
+  }
+  .shapefade3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 7em;
+  }
+
+.stimgg{
+  right: 3em;
+}
+.rectangle3{
+  right: 33px;
+}
+ 
+}
+
+@media screen and (max-width: 610px){
+.navbelow{
+  margin-bottom: 26em;
+}
+.h22 h2{
+  top: 1em;
+  padding-right: 2em;
+}
+.h22 p{
+  position: absolute;
+  top: 16em;
+  padding-right: 9em;
+}
+.frstbtnn{
+  /* position: relative; */
+  margin-top: 300px;
+  margin-bottom: 1em;
+}
+}
+
+@media screen and (max-width: 400px){
+  .stimgg{
+    right: 0em;
+  }
+  .h22 h2{
+    position: absolute;
+    top: 1em;
+    padding-right: 0em;
+  }
+  .h22 p{
+    position: absolute;
+    top: 16em;
+    padding-right: 0em;
+  }
+.frstbtnn{
+  margin-top: 392px;
+}
+}
+@media screen and (min-width: 1200px){
+  .stimgg{
+    right: 12em;
+  }
+  .h22{
+    position: absolute;
+    left: 10em;
+  }
+  .h22 h2{
+    padding-right: 4em;
+  }
+  .h22 p{
+    padding-right: 17em;
+  }
 }
